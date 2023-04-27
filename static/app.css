@@ -3,14 +3,14 @@ html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .container {
     display:flex;
     background-color: black;
     width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    height: 100dvh;
+    box-sizing: border-box;
 }
 
 .color {
