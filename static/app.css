@@ -38,21 +38,22 @@ html, body {
 }
 
 #form input[type="text"] {
-    font-size: 2rem;
+    font-size: 0.8rem;
     outline: 0;
     border: 2px solid white;
     background-color: #f2f2f2;
     padding: 20px;
-    width: 300px;
+    width: 275px;
 }
 
 .btn {
     background-color: #4caf50;
     padding: 20px;
-    font-size: 2rem;
+    font-size: 0.8rem;
     color: white;
     border: 2px solid white;
     transition: 0.2s opacity;
+    display:none;
 }
 
 .btn:hover {
